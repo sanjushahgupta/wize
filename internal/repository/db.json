@@ -1,0 +1,1122 @@
+[
+  {
+    "date": "2025-01-01",
+    "amount": "3200.00",
+    "description": "January Salary",
+    "from": "Delivery Hero",
+    "to": "Sanju",
+    "category": "Income"
+  },
+  {
+    "date": "2025-01-02",
+    "amount": "54.37",
+    "description": "Groceries",
+    "from": "Sanju",
+    "to": "Rewe",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-01-02",
+    "amount": "2.90",
+    "description": "Morning Coffee",
+    "from": "Priya Patel",
+    "to": "BackWerk",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-01-03",
+    "amount": "89.99",
+    "description": "Electricity Bill",
+    "from": "Alex Kim",
+    "to": "Vattenfall",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-01-03",
+    "amount": "15.60",
+    "description": "BVG Day Ticket",
+    "from": "Sanju",
+    "to": "BVG",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-01-04",
+    "amount": "980.00",
+    "description": "January Rent",
+    "from": "Sanju",
+    "to": "Hausverwaltung GmbH",
+    "category": "Rent"
+  },
+  {
+    "date": "2025-01-04",
+    "amount": "23.99",
+    "description": "Spotify Premium",
+    "from": "Alex Kim",
+    "to": "Spotify",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-01-05",
+    "amount": "39.45",
+    "description": "Baby Care Items",
+    "from": "Sanju",
+    "to": "DM Drogerie",
+    "category": "Shopping"
+  },
+  {
+    "date": "2025-01-06",
+    "amount": "250.00",
+    "description": "Freelance Invoice #104",
+    "from": "TechCorp GmbH",
+    "to": "Priya Patel",
+    "category": "Income"
+  },
+  {
+    "date": "2025-01-06",
+    "amount": "72.10",
+    "description": "Weekly Groceries",
+    "from": "Alex Kim",
+    "to": "Edeka",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-01-07",
+    "amount": "14.90",
+    "description": "Lunch Menu",
+    "from": "Sanju",
+    "to": "Curry 36",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-01-08",
+    "amount": "29.00",
+    "description": "Phone Plan",
+    "from": "Priya Patel",
+    "to": "Telekom",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-01-08",
+    "amount": "120.00",
+    "description": "Prenatal Checkup",
+    "from": "Sanju",
+    "to": "Charité",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-01-09",
+    "amount": "33.10",
+    "description": "Taxi Ride",
+    "from": "Alex Kim",
+    "to": "Taxi Berlin",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-01-10",
+    "amount": "19.99",
+    "description": "YouTube Premium",
+    "from": "Sanju",
+    "to": "Google",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-01-10",
+    "amount": "150.00",
+    "description": "Savings Transfer",
+    "from": "Priya Patel",
+    "to": "ING Savings",
+    "category": "Savings"
+  },
+  {
+    "date": "2025-01-11",
+    "amount": "58.75",
+    "description": "Household Supplies",
+    "from": "Sanju",
+    "to": "IKEA",
+    "category": "Shopping"
+  },
+  {
+    "date": "2025-01-12",
+    "amount": "12.50",
+    "description": "Brunch",
+    "from": "Alex Kim",
+    "to": "Cafe Anna Blume",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-01-12",
+    "amount": "17.20",
+    "description": "Fuel",
+    "from": "Priya Patel",
+    "to": "Shell",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-01-13",
+    "amount": "45.00",
+    "description": "Internet Bill",
+    "from": "Sanju",
+    "to": "Vodafone",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-01-13",
+    "amount": "9.99",
+    "description": "iCloud 2TB",
+    "from": "Alex Kim",
+    "to": "Apple",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-01-14",
+    "amount": "88.00",
+    "description": "Kita Fee",
+    "from": "Priya Patel",
+    "to": "KITA Sonnenschein",
+    "category": "Childcare"
+  },
+  {
+    "date": "2025-01-15",
+    "amount": "3200.00",
+    "description": "Mid-month Salary",
+    "from": "Delivery Hero",
+    "to": "Alex Kim",
+    "category": "Income"
+  },
+  {
+    "date": "2025-01-15",
+    "amount": "42.75",
+    "description": "Baby Clothes",
+    "from": "Sanju",
+    "to": "BabyOne",
+    "category": "Shopping"
+  },
+  {
+    "date": "2025-01-16",
+    "amount": "6.30",
+    "description": "Bakery Snack",
+    "from": "Priya Patel",
+    "to": "Zeit für Brot",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-01-17",
+    "amount": "109.00",
+    "description": "Monthly Gym",
+    "from": "Alex Kim",
+    "to": "McFIT",
+    "category": "Health & Fitness"
+  },
+  {
+    "date": "2025-01-18",
+    "amount": "24.90",
+    "description": "Cinema Tickets",
+    "from": "Sanju",
+    "to": "CineStar",
+    "category": "Entertainment"
+  },
+  {
+    "date": "2025-01-19",
+    "amount": "72.00",
+    "description": "Weekly Groceries",
+    "from": "Priya Patel",
+    "to": "Aldi",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-01-19",
+    "amount": "14.95",
+    "description": "Kindle eBook",
+    "from": "Alex Kim",
+    "to": "Amazon",
+    "category": "Books"
+  },
+  {
+    "date": "2025-01-20",
+    "amount": "980.00",
+    "description": "Rent (Late Adj.)",
+    "from": "Priya Patel",
+    "to": "Landlord M. Müller",
+    "category": "Rent"
+  },
+  {
+    "date": "2025-01-20",
+    "amount": "60.00",
+    "description": "Winter Jacket Repair",
+    "from": "Sanju",
+    "to": "Kleiderei",
+    "category": "Maintenance"
+  },
+  {
+    "date": "2025-01-21",
+    "amount": "21.80",
+    "description": "Lunch",
+    "from": "Alex Kim",
+    "to": "Mustafa's Gemüse Kebap",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-01-22",
+    "amount": "199.99",
+    "description": "Noise-canceling Headphones",
+    "from": "Sanju",
+    "to": "MediaMarkt",
+    "category": "Electronics"
+  },
+  {
+    "date": "2025-01-23",
+    "amount": "12.00",
+    "description": "Apotheke Medicines",
+    "from": "Priya Patel",
+    "to": "Apotheke am Zoo",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-01-24",
+    "amount": "35.00",
+    "description": "Haircut",
+    "from": "Alex Kim",
+    "to": "Cutman Barbers",
+    "category": "Personal Care"
+  },
+  {
+    "date": "2025-01-25",
+    "amount": "150.00",
+    "description": "Emergency Fund Transfer",
+    "from": "Sanju",
+    "to": "N26 Savings",
+    "category": "Savings"
+  },
+  {
+    "date": "2025-01-26",
+    "amount": "9.50",
+    "description": "Pastries",
+    "from": "Priya Patel",
+    "to": "Zeitgeist Bakery",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-01-27",
+    "amount": "59.90",
+    "description": "Gas Bill",
+    "from": "Alex Kim",
+    "to": "GASAG",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-01-28",
+    "amount": "88.20",
+    "description": "Baby Monitor",
+    "from": "Sanju",
+    "to": "Saturn",
+    "category": "Electronics"
+  },
+  {
+    "date": "2025-01-29",
+    "amount": "3200.00",
+    "description": "Salary Bonus",
+    "from": "Delivery Hero",
+    "to": "Priya Patel",
+    "category": "Income"
+  },
+  {
+    "date": "2025-01-29",
+    "amount": "47.00",
+    "description": "Dinner",
+    "from": "Alex Kim",
+    "to": "Neni Berlin",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-01-30",
+    "amount": "10.00",
+    "description": "App Store Purchase",
+    "from": "Sanju",
+    "to": "Apple",
+    "category": "Entertainment"
+  },
+  {
+    "date": "2025-01-31",
+    "amount": "25.00",
+    "description": "Charity Donation",
+    "from": "Priya Patel",
+    "to": "Deutsches Rotes Kreuz",
+    "category": "Charity"
+  },
+  {
+    "date": "2025-02-01",
+    "amount": "3200.00",
+    "description": "February Salary",
+    "from": "Delivery Hero",
+    "to": "Sanju",
+    "category": "Income"
+  },
+  {
+    "date": "2025-02-01",
+    "amount": "980.00",
+    "description": "February Rent",
+    "from": "Alex Kim",
+    "to": "Hausverwaltung GmbH",
+    "category": "Rent"
+  },
+  {
+    "date": "2025-02-02",
+    "amount": "65.80",
+    "description": "Groceries",
+    "from": "Priya Patel",
+    "to": "Lidl",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-02-03",
+    "amount": "45.00",
+    "description": "Internet Bill",
+    "from": "Sanju",
+    "to": "Vodafone",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-02-03",
+    "amount": "19.95",
+    "description": "Netflix",
+    "from": "Alex Kim",
+    "to": "Netflix",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-02-04",
+    "amount": "18.40",
+    "description": "BVG Tickets",
+    "from": "Sanju",
+    "to": "BVG",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-02-05",
+    "amount": "130.00",
+    "description": "Prenatal Vitamins & Supplements",
+    "from": "Priya Patel",
+    "to": "Rossmann",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-02-06",
+    "amount": "210.00",
+    "description": "Insurance Payment",
+    "from": "Alex Kim",
+    "to": "Allianz",
+    "category": "Insurance"
+  },
+  {
+    "date": "2025-02-07",
+    "amount": "29.00",
+    "description": "Phone Plan",
+    "from": "Sanju",
+    "to": "Telekom",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-02-07",
+    "amount": "75.00",
+    "description": "Dinner with Friends",
+    "from": "Priya Patel",
+    "to": "Zur letzten Instanz",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-02-08",
+    "amount": "310.00",
+    "description": "Stroller Part Payment",
+    "from": "Alex Kim",
+    "to": "BabyOne",
+    "category": "Shopping"
+  },
+  {
+    "date": "2025-02-09",
+    "amount": "22.90",
+    "description": "Sunday Brunch",
+    "from": "Sanju",
+    "to": "Father Carpenter",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-02-10",
+    "amount": "100.00",
+    "description": "Transfer to DKB",
+    "from": "Priya Patel",
+    "to": "DKB",
+    "category": "Transfer"
+  },
+  {
+    "date": "2025-02-11",
+    "amount": "49.99",
+    "description": "Baby Carrier",
+    "from": "Alex Kim",
+    "to": "Zalando",
+    "category": "Shopping"
+  },
+  {
+    "date": "2025-02-12",
+    "amount": "320.00",
+    "description": "Freelance Payment",
+    "from": "Upwork",
+    "to": "Sanju",
+    "category": "Income"
+  },
+  {
+    "date": "2025-02-13",
+    "amount": "8.70",
+    "description": "Cappuccino & Croissant",
+    "from": "Priya Patel",
+    "to": "Cafe Fleury",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-02-14",
+    "amount": "36.50",
+    "description": "Valentine's Flowers",
+    "from": "Alex Kim",
+    "to": "Blumen 2000",
+    "category": "Gifts"
+  },
+  {
+    "date": "2025-02-14",
+    "amount": "12.99",
+    "description": "App Subscription",
+    "from": "Sanju",
+    "to": "Headspace",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-02-15",
+    "amount": "980.00",
+    "description": "Mid-month Rent Share",
+    "from": "Priya Patel",
+    "to": "Landlord M. Müller",
+    "category": "Rent"
+  },
+  {
+    "date": "2025-02-16",
+    "amount": "41.60",
+    "description": "Groceries",
+    "from": "Alex Kim",
+    "to": "Rewe",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-02-17",
+    "amount": "27.50",
+    "description": "Fuel",
+    "from": "Sanju",
+    "to": "Aral",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-02-18",
+    "amount": "15.00",
+    "description": "Cloud Storage",
+    "from": "Priya Patel",
+    "to": "Google",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-02-19",
+    "amount": "75.00",
+    "description": "Pediatric Consultation Booking",
+    "from": "Alex Kim",
+    "to": "Kinderarztpraxis Mitte",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-02-20",
+    "amount": "210.00",
+    "description": "Car Insurance",
+    "from": "Sanju",
+    "to": "HUK-Coburg",
+    "category": "Insurance"
+  },
+  {
+    "date": "2025-02-21",
+    "amount": "48.80",
+    "description": "Dinner",
+    "from": "Priya Patel",
+    "to": "Burgermeister",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-02-22",
+    "amount": "29.99",
+    "description": "Online Course",
+    "from": "Alex Kim",
+    "to": "Udemy",
+    "category": "Education"
+  },
+  {
+    "date": "2025-02-23",
+    "amount": "3200.00",
+    "description": "Freelance Retainer",
+    "from": "Innotech AG",
+    "to": "Priya Patel",
+    "category": "Income"
+  },
+  {
+    "date": "2025-02-24",
+    "amount": "12.40",
+    "description": "Office Snacks",
+    "from": "Sanju",
+    "to": "Späti",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-02-25",
+    "amount": "44.00",
+    "description": "Water Bill",
+    "from": "Alex Kim",
+    "to": "Berliner Wasserbetriebe",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-02-26",
+    "amount": "85.00",
+    "description": "Midwife Session",
+    "from": "Priya Patel",
+    "to": "Hebammenpraxis Süd",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-02-27",
+    "amount": "300.00",
+    "description": "Investment Deposit",
+    "from": "Sanju",
+    "to": "Trade Republic",
+    "category": "Investment"
+  },
+  {
+    "date": "2025-02-28",
+    "amount": "19.99",
+    "description": "Disney+",
+    "from": "Alex Kim",
+    "to": "Disney",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-03-01",
+    "amount": "3200.00",
+    "description": "March Salary",
+    "from": "Delivery Hero",
+    "to": "Sanju",
+    "category": "Income"
+  },
+  {
+    "date": "2025-03-01",
+    "amount": "980.00",
+    "description": "March Rent",
+    "from": "Priya Patel",
+    "to": "Hausverwaltung GmbH",
+    "category": "Rent"
+  },
+  {
+    "date": "2025-03-02",
+    "amount": "61.30",
+    "description": "Groceries",
+    "from": "Alex Kim",
+    "to": "Edeka",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-03-03",
+    "amount": "45.00",
+    "description": "Internet Bill",
+    "from": "Sanju",
+    "to": "Vodafone",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-03-03",
+    "amount": "13.20",
+    "description": "Metro Ticket",
+    "from": "Priya Patel",
+    "to": "BVG",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-03-04",
+    "amount": "25.00",
+    "description": "Prenatal Yoga",
+    "from": "Alex Kim",
+    "to": "Yoga Studio Mitte",
+    "category": "Health & Fitness"
+  },
+  {
+    "date": "2025-03-05",
+    "amount": "210.00",
+    "description": "Insurance Payment",
+    "from": "Sanju",
+    "to": "Barmer",
+    "category": "Insurance"
+  },
+  {
+    "date": "2025-03-06",
+    "amount": "17.50",
+    "description": "Lunch",
+    "from": "Priya Patel",
+    "to": "Witty's",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-03-07",
+    "amount": "129.00",
+    "description": "Baby Monitor Upgrade",
+    "from": "Alex Kim",
+    "to": "Amazon",
+    "category": "Electronics"
+  },
+  {
+    "date": "2025-03-08",
+    "amount": "300.00",
+    "description": "Savings Transfer",
+    "from": "Sanju",
+    "to": "ING Savings",
+    "category": "Savings"
+  },
+  {
+    "date": "2025-03-09",
+    "amount": "23.10",
+    "description": "Bakery & Coffee",
+    "from": "Priya Patel",
+    "to": "Suse & Bonni",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-03-10",
+    "amount": "79.50",
+    "description": "Gas Bill",
+    "from": "Alex Kim",
+    "to": "GASAG",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-03-11",
+    "amount": "18.90",
+    "description": "Uber Ride",
+    "from": "Sanju",
+    "to": "Uber",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-03-12",
+    "amount": "42.00",
+    "description": "Books for Bootcamp",
+    "from": "Priya Patel",
+    "to": "Dussmann",
+    "category": "Education"
+  },
+  {
+    "date": "2025-03-13",
+    "amount": "57.80",
+    "description": "Dinner Out",
+    "from": "Alex Kim",
+    "to": "Transit Restaurant",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-03-14",
+    "amount": "320.00",
+    "description": "Freelance Payment",
+    "from": "Upwork",
+    "to": "Priya Patel",
+    "category": "Income"
+  },
+  {
+    "date": "2025-03-15",
+    "amount": "980.00",
+    "description": "Mid-month Rent",
+    "from": "Sanju",
+    "to": "Landlord M. Müller",
+    "category": "Rent"
+  },
+  {
+    "date": "2025-03-16",
+    "amount": "66.40",
+    "description": "Groceries",
+    "from": "Alex Kim",
+    "to": "Rewe",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-03-17",
+    "amount": "29.00",
+    "description": "Phone Plan",
+    "from": "Priya Patel",
+    "to": "Telekom",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-03-18",
+    "amount": "45.00",
+    "description": "Internet Bill",
+    "from": "Sanju",
+    "to": "Vodafone",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-03-19",
+    "amount": "28.00",
+    "description": "Maternity Pillow",
+    "from": "Alex Kim",
+    "to": "IKEA",
+    "category": "Shopping"
+  },
+  {
+    "date": "2025-03-20",
+    "amount": "15.00",
+    "description": "Cloud Storage",
+    "from": "Sanju",
+    "to": "Google",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-03-21",
+    "amount": "36.90",
+    "description": "Fuel",
+    "from": "Priya Patel",
+    "to": "Aral",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-03-22",
+    "amount": "210.00",
+    "description": "Insurance Payment",
+    "from": "Alex Kim",
+    "to": "Allianz",
+    "category": "Insurance"
+  },
+  {
+    "date": "2025-03-23",
+    "amount": "3200.00",
+    "description": "Consulting Fee",
+    "from": "CloudNine GmbH",
+    "to": "Sanju",
+    "category": "Income"
+  },
+  {
+    "date": "2025-03-24",
+    "amount": "22.40",
+    "description": "Sushi Lunch",
+    "from": "Priya Patel",
+    "to": "Dudu31",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-03-25",
+    "amount": "14.99",
+    "description": "App Subscription",
+    "from": "Alex Kim",
+    "to": "Calm",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-03-26",
+    "amount": "75.00",
+    "description": "Midwife Session",
+    "from": "Sanju",
+    "to": "Hebammenpraxis Süd",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-03-27",
+    "amount": "300.00",
+    "description": "ETF Investment",
+    "from": "Priya Patel",
+    "to": "Vanguard",
+    "category": "Investment"
+  },
+  {
+    "date": "2025-03-28",
+    "amount": "19.99",
+    "description": "Disney+",
+    "from": "Alex Kim",
+    "to": "Disney",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-03-29",
+    "amount": "61.80",
+    "description": "Groceries",
+    "from": "Sanju",
+    "to": "Lidl",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-03-30",
+    "amount": "48.00",
+    "description": "Dinner",
+    "from": "Priya Patel",
+    "to": "District Môt",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-03-31",
+    "amount": "12.00",
+    "description": "Parking",
+    "from": "Alex Kim",
+    "to": "Parkhaus Alexa",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-04-01",
+    "amount": "3200.00",
+    "description": "April Salary",
+    "from": "Delivery Hero",
+    "to": "Priya Patel",
+    "category": "Income"
+  },
+  {
+    "date": "2025-04-01",
+    "amount": "980.00",
+    "description": "April Rent",
+    "from": "Sanju",
+    "to": "Hausverwaltung GmbH",
+    "category": "Rent"
+  },
+  {
+    "date": "2025-04-02",
+    "amount": "45.00",
+    "description": "Internet Bill",
+    "from": "Alex Kim",
+    "to": "Vodafone",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-04-02",
+    "amount": "17.80",
+    "description": "Lunch",
+    "from": "Priya Patel",
+    "to": "Zeitgeist Kantine",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-04-03",
+    "amount": "29.00",
+    "description": "Phone Plan",
+    "from": "Sanju",
+    "to": "Telekom",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-04-04",
+    "amount": "210.00",
+    "description": "Insurance",
+    "from": "Alex Kim",
+    "to": "Allianz",
+    "category": "Insurance"
+  },
+  {
+    "date": "2025-04-05",
+    "amount": "82.70",
+    "description": "Groceries",
+    "from": "Priya Patel",
+    "to": "Rewe",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-04-06",
+    "amount": "25.00",
+    "description": "Prenatal Yoga",
+    "from": "Sanju",
+    "to": "Yoga Studio Mitte",
+    "category": "Health & Fitness"
+  },
+  {
+    "date": "2025-04-07",
+    "amount": "300.00",
+    "description": "ETF Investment",
+    "from": "Alex Kim",
+    "to": "Trade Republic",
+    "category": "Investment"
+  },
+  {
+    "date": "2025-04-08",
+    "amount": "19.99",
+    "description": "Netflix",
+    "from": "Priya Patel",
+    "to": "Netflix",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-04-09",
+    "amount": "12.60",
+    "description": "BVG Ticket",
+    "from": "Sanju",
+    "to": "BVG",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-04-10",
+    "amount": "88.00",
+    "description": "Kita Fee",
+    "from": "Alex Kim",
+    "to": "KITA Sonnenschein",
+    "category": "Childcare"
+  },
+  {
+    "date": "2025-04-11",
+    "amount": "15.00",
+    "description": "Cloud Storage",
+    "from": "Priya Patel",
+    "to": "Google",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-04-12",
+    "amount": "42.30",
+    "description": "Dinner",
+    "from": "Sanju",
+    "to": "Santa Maria",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-04-13",
+    "amount": "23.90",
+    "description": "Pharmacy",
+    "from": "Alex Kim",
+    "to": "Apotheke am Zoo",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-04-14",
+    "amount": "150.00",
+    "description": "Emergency Fund",
+    "from": "Priya Patel",
+    "to": "ING Savings",
+    "category": "Savings"
+  },
+  {
+    "date": "2025-04-15",
+    "amount": "320.00",
+    "description": "Freelance Payment",
+    "from": "Upwork",
+    "to": "Alex Kim",
+    "category": "Income"
+  },
+  {
+    "date": "2025-04-16",
+    "amount": "66.10",
+    "description": "Groceries",
+    "from": "Sanju",
+    "to": "Edeka",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-04-17",
+    "amount": "45.00",
+    "description": "Water Bill",
+    "from": "Priya Patel",
+    "to": "Berliner Wasserbetriebe",
+    "category": "Utilities"
+  },
+  {
+    "date": "2025-04-18",
+    "amount": "27.80",
+    "description": "Lunch",
+    "from": "Alex Kim",
+    "to": "Konnopke's Imbiss",
+    "category": "Food & Drink"
+  },
+  {
+    "date": "2025-04-19",
+    "amount": "210.00",
+    "description": "Insurance Payment",
+    "from": "Sanju",
+    "to": "AOK",
+    "category": "Insurance"
+  },
+  {
+    "date": "2025-04-20",
+    "amount": "19.99",
+    "description": "Disney+",
+    "from": "Priya Patel",
+    "to": "Disney",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-04-21",
+    "amount": "300.00",
+    "description": "Investment Deposit",
+    "from": "Alex Kim",
+    "to": "Vanguard",
+    "category": "Investment"
+  },
+  {
+    "date": "2025-04-22",
+    "amount": "58.50",
+    "description": "Baby Essentials",
+    "from": "Sanju",
+    "to": "Rossmann",
+    "category": "Shopping"
+  },
+  {
+    "date": "2025-04-23",
+    "amount": "13.60",
+    "description": "Metro Ticket",
+    "from": "Priya Patel",
+    "to": "BVG",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-04-24",
+    "amount": "48.00",
+    "description": "Dinner Out",
+    "from": "Alex Kim",
+    "to": "Monsieur Vuong",
+    "category": "Dining"
+  },
+  {
+    "date": "2025-04-25",
+    "amount": "75.00",
+    "description": "Midwife Session",
+    "from": "Sanju",
+    "to": "Hebammenpraxis Süd",
+    "category": "Healthcare"
+  },
+  {
+    "date": "2025-04-26",
+    "amount": "300.00",
+    "description": "Savings Transfer",
+    "from": "Priya Patel",
+    "to": "DKB Savings",
+    "category": "Savings"
+  },
+  {
+    "date": "2025-04-27",
+    "amount": "19.99",
+    "description": "Spotify",
+    "from": "Alex Kim",
+    "to": "Spotify",
+    "category": "Subscriptions"
+  },
+  {
+    "date": "2025-04-28",
+    "amount": "61.40",
+    "description": "Groceries",
+    "from": "Sanju",
+    "to": "Aldi",
+    "category": "Groceries"
+  },
+  {
+    "date": "2025-04-29",
+    "amount": "43.00",
+    "description": "Taxi",
+    "from": "Priya Patel",
+    "to": "Taxi Berlin",
+    "category": "Transport"
+  },
+  {
+    "date": "2025-04-30",
+    "amount": "29.00",
+    "description": "Phone Bill",
+    "from": "Alex Kim",
+    "to": "Telekom",
+    "category": "Utilities"
+  }
+]
