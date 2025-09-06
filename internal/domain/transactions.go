@@ -1,7 +1,5 @@
 package domain
 
-import "wize/internal/repository"
-
 type Transaction struct {
 	Date        string `json:"date"`
 	Amount      string `json:"amount"`
@@ -11,8 +9,19 @@ type Transaction struct {
 	Category    string `json:"category"`
 }
 
-func GetAllTransactions() []Transaction {
-	transactions := repository.SelectAll()
+type transactionsStorage interface {
+	SelectAll() ([]Transaction, error)
+}
 
-	return transactions
+type TransactionsService struct {
+	Storage transactionsStorage
+}
+
+func (ts *TransactionsService) GetAllTransactions() ([]Transaction, error) {
+	transactions, err := ts.Storage.SelectAll()
+	if err != nil {
+		return transactions, err
+	}
+
+	return transactions, nil
 }

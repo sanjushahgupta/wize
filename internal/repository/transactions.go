@@ -6,7 +6,9 @@ import (
 	"wize/internal/domain"
 )
 
-func SelectAll() ([]domain.Transaction, error) {
+type FileStorage struct{}
+
+func (fs *FileStorage) SelectAll() ([]domain.Transaction, error) {
 	var transactions []domain.Transaction
 
 	data, err := os.ReadFile("db.json")

@@ -5,10 +5,20 @@ import (
 	"fmt"
 	"net/http"
 	"wize/internal/domain"
+	"wize/internal/repository"
 )
 
 func AllTransactions(w http.ResponseWriter, r *http.Request) {
-	trs := domain.GetAllTransactions()
+	ts := domain.TransactionsService{
+		Storage: &repository.FileStorage{},
+	}
+
+	trs, err := ts.GetAllTransactions()
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		w.Write([]byte(err.Error()))
+		return
+	}
 
 	allTrns, err := json.Marshal(trs)
 	if err != nil {
