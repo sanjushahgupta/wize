@@ -1,24 +1,19 @@
 package domain
 
-type Transaction struct {
-	Date        string `json:"date"`
-	Amount      string `json:"amount"`
-	Description string `json:"description"`
-	From        string `json:"from"`
-	To          string `json:"to"`
-	Category    string `json:"category"`
-}
-
-type transactionsStorage interface {
-	SelectAll() ([]Transaction, error)
-}
-
 type TransactionsService struct {
-	Storage transactionsStorage
+	storage transactionsStorage
+}
+
+func NewTransactionsService(
+	storage transactionsStorage,
+) *TransactionsService {
+	return &TransactionsService{
+		storage: storage,
+	}
 }
 
 func (ts *TransactionsService) GetAllTransactions() ([]Transaction, error) {
-	transactions, err := ts.Storage.SelectAll()
+	transactions, err := ts.storage.SelectAll()
 	if err != nil {
 		return transactions, err
 	}

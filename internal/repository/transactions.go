@@ -8,6 +8,10 @@ import (
 
 type FileStorage struct{}
 
+func NewFileStorage() *FileStorage {
+	return &FileStorage{}
+}
+
 func (fs *FileStorage) SelectAll() ([]domain.Transaction, error) {
 	var transactions []domain.Transaction
 

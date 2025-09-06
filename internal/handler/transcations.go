@@ -9,9 +9,7 @@ import (
 )
 
 func AllTransactions(w http.ResponseWriter, r *http.Request) {
-	ts := domain.TransactionsService{
-		Storage: &repository.FileStorage{},
-	}
+	ts := domain.NewTransactionsService(repository.NewFileStorage())
 
 	trs, err := ts.GetAllTransactions()
 	if err != nil {
