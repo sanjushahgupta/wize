@@ -2,6 +2,7 @@ package handler
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
 	"wize/internal/domain"
@@ -11,8 +12,16 @@ import (
 func AllTransactions(w http.ResponseWriter, r *http.Request) {
 	ts := domain.NewTransactionsService(repository.NewFileStorage())
 
-	trs, err := ts.GetAllTransactions()
+	user := r.URL.Query().Get("user")
+
+	trs, err := ts.GetAllTransactions(r.Context(), user)
 	if err != nil {
+		if errors.Is(err, domain.NoUserProvidedError) {
+			w.WriteHeader(http.StatusBadRequest)
+			w.Write([]byte(err.Error()))
+			return
+		}
+
 		w.WriteHeader(http.StatusInternalServerError)
 		w.Write([]byte(err.Error()))
 		return

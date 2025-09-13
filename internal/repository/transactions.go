@@ -1,6 +1,7 @@
 package repository
 
 import (
+	"context"
 	"encoding/json"
 	"os"
 	"wize/internal/domain"
@@ -12,7 +13,7 @@ func NewFileStorage() *FileStorage {
 	return &FileStorage{}
 }
 
-func (fs *FileStorage) SelectAll() ([]domain.Transaction, error) {
+func (fs *FileStorage) SelectAll(_ context.Context) ([]domain.Transaction, error) {
 	var transactions []domain.Transaction
 
 	data, err := os.ReadFile("db.json")

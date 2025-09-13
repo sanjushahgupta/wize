@@ -1,5 +1,7 @@
 package domain
 
+import "context"
+
 type transactionsStorage interface {
-	SelectAll() ([]Transaction, error)
+	SelectAll(ctx context.Context) ([]Transaction, error)
 }
