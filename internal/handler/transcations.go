@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"log/slog"
 	"net/http"
 	"wize/internal/domain"
 	"wize/internal/repository"
@@ -19,11 +20,24 @@ func AllTransactions(w http.ResponseWriter, r *http.Request) {
 		if errors.Is(err, domain.NoUserProvidedError) {
 			w.WriteHeader(http.StatusBadRequest)
 			w.Write([]byte(err.Error()))
+
+			slog.Warn(
+				"bad request",
+				slog.String("user", user),
+				slog.String("error", err.Error()),
+			)
 			return
 		}
 
 		w.WriteHeader(http.StatusInternalServerError)
-		w.Write([]byte(err.Error()))
+		w.Write([]byte("internal server error"))
+
+		slog.Error(
+			"internal server error",
+			slog.String("error_message", err.Error()),
+			slog.String("user", user),
+		)
+
 		return
 	}
 
