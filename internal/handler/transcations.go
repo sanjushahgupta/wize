@@ -12,7 +12,7 @@ import (
 )
 
 func AllTransactions(w http.ResponseWriter, r *http.Request) {
-	ts := domain.NewTransactionsService(repository.NewFileStorage())
+	ts := domain.NewTransactionsService(repository.NewWiseClient(domain.CFG.WiseAPIKey))
 
 	userIDString := r.URL.Query().Get("userID")
 	userID, err := strconv.Atoi(userIDString)

@@ -8,3 +8,10 @@ type Transaction struct {
 	To          int64   `json:"to"`
 	Category    string  `json:"category"`
 }
+
+type Config struct {
+	WiseAPIKey string
+	LogFile    string
+}
+
+var CFG Config
