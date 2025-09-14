@@ -3,7 +3,6 @@ package domain
 import (
 	"context"
 	"errors"
-	"strings"
 )
 
 type TransactionsService struct {
@@ -20,8 +19,8 @@ func NewTransactionsService(
 	}
 }
 
-func (ts *TransactionsService) GetAllTransactions(ctx context.Context, user string) ([]Transaction, error) {
-	if user == "" {
+func (ts *TransactionsService) GetAllTransactions(ctx context.Context, userID int64) ([]Transaction, error) {
+	if userID == 0 {
 		return make([]Transaction, 0), NoUserProvidedError
 	}
 
@@ -30,12 +29,9 @@ func (ts *TransactionsService) GetAllTransactions(ctx context.Context, user stri
 		return transactions, err
 	}
 
-	normalizedUser := strings.ToLower(user)
 	myTransactions := make([]Transaction, 0)
 	for _, transaction := range transactions {
-		normalizedFrom := strings.ToLower(transaction.From)
-		normalizedTo := strings.ToLower(transaction.To)
-		if normalizedFrom == normalizedUser || normalizedTo == normalizedUser {
+		if transaction.From == userID || transaction.To == userID {
 			myTransactions = append(myTransactions, transaction)
 		}
 	}

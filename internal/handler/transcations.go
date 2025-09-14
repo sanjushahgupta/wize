@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log/slog"
 	"net/http"
+	"strconv"
 	"wize/internal/domain"
 	"wize/internal/repository"
 )
@@ -13,9 +14,21 @@ import (
 func AllTransactions(w http.ResponseWriter, r *http.Request) {
 	ts := domain.NewTransactionsService(repository.NewFileStorage())
 
-	user := r.URL.Query().Get("user")
+	userIDString := r.URL.Query().Get("userID")
+	userID, err := strconv.Atoi(userIDString)
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		w.Write([]byte("internal server error"))
 
-	trs, err := ts.GetAllTransactions(r.Context(), user)
+		slog.Error(
+			"failed to convert userID from string to int",
+			slog.String("error_message", err.Error()),
+			slog.String("user_id", userIDString),
+		)
+		return
+	}
+
+	trs, err := ts.GetAllTransactions(r.Context(), int64(userID))
 	if err != nil {
 		if errors.Is(err, domain.NoUserProvidedError) {
 			w.WriteHeader(http.StatusBadRequest)
@@ -23,7 +36,7 @@ func AllTransactions(w http.ResponseWriter, r *http.Request) {
 
 			slog.Warn(
 				"bad request",
-				slog.String("user", user),
+				slog.Int("user", userID),
 				slog.String("error", err.Error()),
 			)
 			return
@@ -35,7 +48,7 @@ func AllTransactions(w http.ResponseWriter, r *http.Request) {
 		slog.Error(
 			"internal server error",
 			slog.String("error_message", err.Error()),
-			slog.String("user", user),
+			slog.Int("user", userID),
 		)
 
 		return
