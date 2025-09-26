@@ -3,6 +3,7 @@ package domain
 import (
 	"context"
 	"errors"
+	"log"
 )
 
 type TransactionsService struct {
@@ -25,12 +26,15 @@ func (ts *TransactionsService) GetAllTransactions(ctx context.Context, userID in
 	}
 
 	transactions, err := ts.storage.SelectAll(ctx)
+	log.Println("all transactions", transactions)
 	if err != nil {
 		return transactions, err
 	}
 
 	myTransactions := make([]Transaction, 0)
+
 	for _, transaction := range transactions {
+		log.Println("userID", transaction.From)
 		if transaction.From == userID || transaction.To == userID {
 			myTransactions = append(myTransactions, transaction)
 		}

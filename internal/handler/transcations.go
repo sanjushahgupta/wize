@@ -3,7 +3,7 @@ package handler
 import (
 	"encoding/json"
 	"errors"
-	"fmt"
+	"log"
 	"log/slog"
 	"net/http"
 	"strconv"
@@ -23,7 +23,7 @@ func AllTransactions(w http.ResponseWriter, r *http.Request) {
 		slog.Error(
 			"failed to convert userID from string to int",
 			slog.String("error_message", err.Error()),
-			slog.String("user_id", userIDString),
+			slog.String("userID", userIDString),
 		)
 		return
 	}
@@ -36,7 +36,7 @@ func AllTransactions(w http.ResponseWriter, r *http.Request) {
 
 			slog.Warn(
 				"bad request",
-				slog.Int("user", userID),
+				slog.Int("userID", userID),
 				slog.String("error", err.Error()),
 			)
 			return
@@ -56,11 +56,11 @@ func AllTransactions(w http.ResponseWriter, r *http.Request) {
 
 	allTrns, err := json.Marshal(trs)
 	if err != nil {
-		fmt.Println("something went wrong while converting all transactions to byte", err)
+		log.Println("something went wrong while converting all transactions to byte", err)
 	}
 
 	_, err = w.Write(allTrns)
 	if err != nil {
-		fmt.Println("something went wrong while writing response", err)
+		log.Println("something went wrong while writing response", err)
 	}
 }

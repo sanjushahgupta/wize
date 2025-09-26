@@ -1,0 +1,33 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: appdb
+      POSTGRES_USER: appuser
+      POSTGRES_PASSWORD: apppass
+    ports:
+      - "5432:5432"     # optional: exposes Postgres to your Mac for tools like psql
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  app:
+    build: .
+    command: ["go", "run", "./cmd/main.go"]
+    environment:
+    # Your app should read these to build the DB connection string
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_NAME: appdb
+      DB_USER: appuser
+      DB_PASSWORD: apppass
+      DB_SSLMODE: disable
+      PORT: "8080"
+    ports:
+      - "8080:8080"     # hit http://localhost:8080 on your Mac
+    depends_on:
+      - db
+    volumes:
+      - ./:/app:rw
+
+volumes:
+  pgdata:
